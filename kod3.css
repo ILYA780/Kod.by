@@ -1,0 +1,48 @@
+article {
+    /*  leverage cascade for cross-browser gradients  */
+    background: radial-gradient(
+      hsl(100 100% 60%), 
+      hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+      hsl(100 100% 60%), 
+      hsl(200 100% 60%), 
+      hsl(100 100% 60%) 
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  } 
+  
+  body {
+   
+    color: white;
+    min-block-size: 200vh;
+    min-inline-size: 100%;
+    
+    box-sizing: border-box;
+    
+    place-content: center;
+    font-family: system-ui;
+    
+  }
+  
+  h11, p11, body {
+    margin: 0;
+  }
+  
+  h11 {
+    font-size: 10vmin;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    margin: auto;
+  }
+  
+  h12 {
+    font-size: 5vmin;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    margin: auto;
+  }
+  
+

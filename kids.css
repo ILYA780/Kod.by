@@ -1,0 +1,384 @@
+:root {
+    --blue: #14d0f0e6;
+    --pink: rgba(255, 131, 195, 0.4);
+    --white: rgba(255, 255, 255, 0.9);
+  }
+  
+  body {
+    
+    box-sizing: border-box;
+   
+    margin: 0;
+  }
+  
+  .background {
+    background-image: url(https://images.unsplash.com/photo-1554692760-4b7e52978fb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #252746;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .background-texture {
+    background: linear-gradient(
+      to top,
+      rgba(255, 131, 195, 0.9),
+      rgba(255, 255, 255, 0.9)
+    );
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .header {
+    width: 100%;
+    height: 80px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .left-content {
+    width: 40vw;
+    padding-left: 40px;
+  }
+  
+
+  
+  h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: #3b365e;
+  }
+  
+  .para {
+    color: #3b365ecb;
+    font-size: 1.5rem;
+  }
+  
+  button {
+    padding: 0.9rem 1.2rem;
+    border-radius: 25px;
+    background-color: var(--blue);
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  svg {
+    position: absolute;
+    min-height: 300px;
+    right: 0;
+    top: 40px;
+  }
+  
+  #rightEar,
+  #leftEar,
+  #in-drawing {
+    animation: ear 2s linear infinite;
+  }
+  
+  @keyframes ear {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+
+
+  :root {
+    --blue: #14d0f0e6;
+    --pink: rgba(255, 131, 195, 0.4);
+    --white: rgba(255, 255, 255, 0.9);
+  }
+  
+  body {
+    
+    box-sizing: border-box;
+   
+    margin: 0;
+  }
+
+
+
+
+
+
+
+  
+  .card57 {
+    background-color: #ffa420;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    border-radius: 50px;
+  }
+
+
+
+  .subtle {
+    color: #000000;
+    font-size: 1.3em;
+  }
+  
+  .card-container {
+    margin: 25px auto 0;
+    position: relative;
+    width: 1300px;
+  }
+  
+
+  
+  .card-body {
+    display: inline-block;
+    float: left;
+    width: 300px;
+  }
+  
+  .card-number {
+    margin-top: 15px;
+  }
+  
+  .card-circle {
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 12px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+  }
+  
+  .card-author {
+    display: block;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin: 15px 0 0;
+    text-transform: uppercase;
+  }
+  
+  .card-title {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    display: inline-block;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+  
+  .card-read {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .card-read:after {
+    background-color: #b8bddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 9px;
+    width: 65%;
+  }
+  
+  .card-tag {
+    float: right;
+    margin: 5px 0 0;
+  }
+  
+
+
+  .card-media2 {
+    float: right;
+    width: 700px;
+  }
+
+  
+  .card-shadow {
+    background-color: #fff;
+    box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
+    height: 1px;
+    margin: -1px auto 0;
+    width: 80%;
+    z-index: -1;
+  }
+
+
+
+  .u-clearfix:before,
+.u-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.u-clearfix:after {
+  clear: both;
+}
+
+
+
+
+.card62 {
+    background-color: #fefe22;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    border-radius: 50px;
+  }
+
+
+  .card11 {
+    background-color: #7df9ff;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    border-radius: 50px;
+  }
+
+
+  .card21 {
+    background-color: #bc13fe;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+    z-index: 1;
+    border-radius: 50px;
+  }
+
+
+
+
+
+  body { 
+    background-color: #000;
+   }
+  
+  /* center the blockquote in the page */
+  .blockquote-wrapper {
+     display: flex;
+     height: 100vh;
+     padding: 0 20px;
+  }
+  
+  /* Blockquote main style */
+  .blockquote {
+      position: relative;
+      font-family: 'Barlow Condensed', sans-serif;
+      max-width: 620px;
+      margin: 80px auto;
+      align-self: center;
+  }
+  
+  /* Blockquote header */
+  .blockquote h1 {
+      font-family: 'Abril Fatface', cursive;
+      position: relative; /* for pseudos */
+      color: #e74848;
+      font-size: 2.8rem;
+      font-weight: normal;
+      line-height: 1;
+      margin: 0;
+      border: 2px solid #fff;
+      border: solid 2px;
+      border-radius:20px;
+      padding: 25px;
+  }
+  
+  /* Blockquote right double quotes */
+  .blockquote h1:after {
+      content:"";
+      position: absolute;
+      border: 2px solid #e74848;
+      border-radius: 0 50px 0 0;
+      width: 60px;
+      height: 60px;
+      bottom: -62px;
+      left: 50px;
+      border-bottom: none;
+      border-left: none;
+      z-index: 3; 
+  }
+  
+  .blockquote h1:before {
+      content:"";
+      position: absolute;
+      width: 80px;
+      border: 6px solid #292a2b;
+      bottom: -3px;
+      left: 50px;
+      z-index: 2;
+  }
+  
+  /* increase header size after 600px */
+  @media all and (min-width: 600px) {
+      .blockquote h1 {
+          font-size: 3rem;
+          line-height: 1.2;
+     }
+  
+  }
+  
+  /* Blockquote subheader */
+  .blockquote h4 {
+      position: relative;
+      color: #ffffff;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: 1.2;
+      margin: 0;
+      padding-top: 15px;
+      z-index: 1;
+      margin-left:150px;
+      padding-left:12px;
+  }
+  
+   
+  .blockquote h4:first-letter {
+    margin-left:-12px;
+  }
